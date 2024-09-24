@@ -1,0 +1,34 @@
+{
+  "name": "jinghe-lanhai-template",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build:old": "run-p type-check build-only",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "countup.js": "^2.8.0",
+    "element-plus": "^2.6.2",
+    "mockjs": "^1.1.0",
+    "vue-echarts": "^6.6.9"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
+    "@types/mockjs": "^1.0.10",
+    "@types/node": "^20.11.30",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/tsconfig": "^0.5.1",
+    "@vueuse/core": "^10.9.0",
+    "autoprefixer": "^10.4.19",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.38",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-element-plus": "^0.8.0",
+    "unplugin-vue-components": "^0.26.0",
+    "vue-tsc": "^2.0.7"
+  }
+}
